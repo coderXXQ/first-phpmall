@@ -1,0 +1,98 @@
+.nav{
+	width: 100%;
+	height: 20px;
+	padding-top: 0px;
+}
+.imgBuff{
+	width:100%;
+	height:100px;
+	margin:0 auto;
+	cursor: pointer;
+}
+.imgBuff img{
+	width: 100%;
+	height: 100px;
+	margin: 0 auto;
+	padding-top: 0px;
+}
+.img0{
+	display: none;
+}
+.imgClose{
+	width:100%;
+	height: 0px;
+	margin: 0 auto;
+	padding-top: 0px;
+}
+.imgClose img{
+	width: 27px;
+	height: 15px;
+	padding-top:0px;
+	float: right;
+	cursor: pointer;
+}	
+.imgLogo{
+	width:200px;
+	height: 200px;
+	margin: 35px 130px;
+	padding-top: 0px;
+}
+.imgLogo img{
+	width: 200px;
+	height: 200px;
+	padding-top: 0px;
+	float: left;
+	cursor: pointer;
+}
+
+@charset "utf-8";
+/*重置浏览器的默认样式*/
+body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img{margin:0; padding:0; border:0; list-style:none;}
+ /*banner*/
+ .banner{
+ 	width:100%;
+ 	height:470px;
+ 	margin:0 auto;
+ 	position:relative;
+ 	overflow: hidden;
+	text-align: center;
+ }
+ .banner .banner_pic .pic{
+	 display:none;
+	 }
+ .banner .banner_pic .current{display:block;}
+ .banner ol{
+ 	position:absolute;
+ 	left:64%;
+ 	bottom:6%;
+ }
+ .banner ol .but{
+ 	float:left;
+ 	width:10px;
+ 	height:10px;
+ 	border:1px solid #2fafbc;
+	border-radius:50%;
+ 	margin-right:12px;
+ 	text-align:center;
+ 	line-height:22px;
+ 	background:#fff;
+ 	color:#2fafbc;
+ 	font-size:16px;
+ 	font-weight:bold;
+	opacity:0.5;
+ }
+ .banner ol li{cursor:pointer;}
+ .banner ol .current{
+ 	color:#fff;
+ 	background:#2fafbc;
+ 	float:left;
+ 	width:10px;
+ 	height:10px;
+ 	border:1px solid #2fafbc;
+	border-radius:50%;
+ 	margin-right:12px;
+ 	text-align:center;
+ 	line-height:22px;
+ 	font-size:16px;
+ 	font-weight:bold;
+ }

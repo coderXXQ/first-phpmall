@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Orders</title>
+	</head>
+	<body style="font-size:12px">
+		<table width="487" height="333" border="0" align="center" cellpadding="0" cellspacing="0" background="images/bg.JPG">
+			<tr>
+							<td align="center" valign="top"><br>
+								<br>
+								<br>
+								<br> <br>
+								<table width="86%" border="0" align="center" cellpadding="2" cellspacing="1" bgcolor="#6699CC">
+									<form name="form1" onreset="return AllReset()" onsubmit="return AllSubmit()">
+										<tr bgcolor="#FFFFFF">
+											<td height="22" align="right">所属类别:</td>
+											<td height="22" align="left">
+												<select name="txt1" id="txt1">
+													<option value="数码设备">数码设备</option>
+													<option value="家用电器">家用电器</option>
+													<option value="礼品工艺">日常用品</option>
+												</select>
+												<select name="txt2" id="txt2">
+													<option value="数码相机">数码相机</option>
+													<option value="打印机">打印机</option>
+												</select></td>
+										</tr>
+										<tr bgcolor="#FFFFFF">
+											<td height="22" align="right">商品名称:</td>
+											<td height="22" align="left"><input name="txt3" type="text" id="txt3" size="30" maxlength="50"></td>
+										</tr>
+										<tr bgcolor="#FFFFFF">
+											<td height="22" align="right">市场价格:</td>
+											<td height="22" align="left"><input name="txt4" type="text" id="txt4" size="10"></td>
+										</tr>
+										<tr bgcolor="#FFFFFF">
+											<td height="22" align="right">会员价格:</td>
+											<td height="22" align="left"><input name="txt5" type="text" id="txt5" size="10" maxlength="50"></td>
+										</tr>
+										<tr bgcolor="#FFFFFF">
+											<td height="22" align="right">商品简介:</td>
+											<td height="22" align="left"><textarea name="txt6" cols="35" rows="4" id="txt6"></textarea></td>
+										</tr>
+										<tr bgcolor="#FFFFFF">
+											<td height="22" align="right">商品数量:</td>
+											<td height="22" align="left"><input name="txt7" type="text" id="txt7" size="10"></td>
+										</tr>
+										<tr bgcolor="#FFFFFF">
+											<td height="22" colspan="2" align="center"><input name="sub" type="submit" id="sub2" value="提交">
+												&nbsp;
+												<input type="reset" name="Submit2" value="重 置"> </td>
+										</tr>
+									</form>
+								</table>
+							</td>
+						</tr>
+					</table>
+	</body>
+	<script language="javascript">
+		<!--
+					//定义表单重置的函数（事件处理程序）
+					function AllReset() {
+						//弹出确认消息提示框，确认是否进行重置
+						if(window.confirm('是否重置？'))
+						//如果确认重置，返回true
+						return true
+						//否则返回false
+						else
+						return false
+						
+					}
+		
+		            //定义表单提交的事件处理程序
+					function AllSubmit() {
+			       //定义一个标志T,默认为true
+						var T = true;
+						//获取事件对象，需考虑浏览器的兼容性
+						var e =window.event;
+						//e.srcElement捕获当前事件作用的对象，event.srcElement.tagName可以捕获活动标记名称。
+						var obj = e.srcElement;
+						//通过for循环，依次判断每个文本域的内容是否为空
+						for (var i = 1; i <= 7; i++) {
+							if (eval("obj." + "txt" + i).value == "") {
+								//如果为空，改变标志T的值为false，并结束循环
+								T=false
+								
+								
+							}
+						}
+						//如果T=false
+						if(!T){
+							//弹出提示信息“提交信息不允许为空”
+							alert('提交信息不允许为空');
+						}	
+						//返回T
+						return T;
+					}
+					//-->
+				</script>
+</html>

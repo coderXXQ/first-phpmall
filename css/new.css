@@ -1,0 +1,10 @@
+/*字体颜色*/
+.moudeTop{height:30px; line-height:30px; text-align:left; background:url(../images/index-bg3.jpg) repeat-x left top}
+.moudeTop h2,.moudeTop strong{ line-height: 30px; width: 120px; float: left; font-size: 14px; font-weight: bold; text-align: left; color: #FFF; background: url(../images/index-bg2.jpg) no-repeat; padding: 0px 36px 0px 15px; }
+.moudeTop a{float:right; padding-right:8px; color:#fff}
+/* header样式 */
+.indexL{width:301px; float:right;margin: -270px auto;}
+.newMessage{height:260px; padding:3px 4px; background:url(../images/index-bg1.jpg)}
+.inx_tjTxt{padding-top:6px; overflow:hidden}
+#ke_scllo{margin-top:12px; height:200px; overflow:hidden}
+.newMessage li{padding:0 17px 0 25px; width: 255px; background:url(../images/index-inco1.jpg) no-repeat 15px 7px; line-height:20px; padding-bottom:20px}

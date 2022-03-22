@@ -1,0 +1,31 @@
+*{
+				margin:0px;
+				padding:0px;
+				font-size:12px;
+			}
+			#boxlist{
+				height:750px;
+				width:1300px;
+				margin: 0px 75px;
+				background:#fff url(../images/bg1.jpg) no-repeat 110px -2px;
+				background-size:1400px 738px;
+			}
+				
+			.main{
+				margin-left:200px;
+				border:1px solid #CCC;
+			}
+			.box{
+				width: 230px;
+				height:290px;
+				padding:23px;
+				border-right:1px solid #CCC;
+				border-bottom: 1px solid #CCC;
+				float:right;
+				cursor:pointer;
+			}
+			.transparent_class{
+				filter:alpha(opacity=60);
+				opacity:0.6;
+				background-color: rgba(0,0,0,0.5);
+			}

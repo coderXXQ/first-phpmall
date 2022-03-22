@@ -1,0 +1,266 @@
+.des_border {
+    overflow: hidden;
+    margin-bottom: 10px;
+    border: 1px solid #eaeaea;
+}
+
+.des_tit {
+    height: 28px;
+    background-color: #f6f6f6;
+    border-bottom: 1px solid #eaeaea;
+    position: relative;
+}
+
+.des_tit ul {
+    width: 100%;
+    height: 29px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.des_tit ul li {
+    width: 110px;
+    height: 29px;
+    line-height: 27px;
+    overflow: hidden;
+    font-size: 14px;
+    text-align: center;
+    float: left;
+}
+
+.des_tit ul li.current {
+    width: 109px;
+    height: 27px;
+    overflow: hidden;
+    background-color: #FFF;
+    border-right: 1px solid #FFF;
+    border-top: 2px solid #ff4e00;
+}
+
+.des_t {
+    height: 38px;
+    line-height: 38px;
+    overflow: hidden;
+    background-color: #f6f6f6;
+    color: #ff4e00;
+    font-size: 14px;
+    text-indent: 25px;
+    border-bottom: 1px solid #eaeaea;
+    border-top: 2px solid #ff4e00;
+}
+
+.team_list {
+    width: 160px;
+    height: 195px;
+    overflow: hidden;
+    float: left;
+    display: inline;
+    margin: 25px 30px;
+}
+
+.team_list .img {
+    width: 160px;
+    height: 140px;
+    overflow: hidden;
+}
+
+.team_list .name {
+    width: 160px;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+}
+
+.team_list .price {
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    color: #999999;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.team_list .price font {
+    color: #ff4e00;
+    font-size: 14px;
+}
+
+.team_list .price span {
+    font-size: 16px;
+}
+
+.team_list .price .checkbox {
+    width: 25px;
+    height: 20px;
+    overflow: hidden;
+    text-align: left;
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+
+.team_icon {
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    float: left;
+    display: inline;
+    margin: 90px 0;
+}
+
+.team_sum {
+    width: 145px;
+    height: 125px;
+    overflow: hidden;
+    color: #ff4e00;
+    float: left;
+    display: inline;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.team_sum span {
+    font-size: 18px;
+}
+
+.sum_ipt {
+    width: 58px;
+    height: 23px;
+    line-height: 23px;
+    background: none;
+    color: #555555;
+    font-size: 16px;
+    text-align: center;
+    padding: 0;
+    margin: 5px auto 10px auto;
+    border: 1px solid #eaeaea;
+}
+
+.des_con {
+    overflow: hidden;
+    margin: 25px;
+}
+
+table.jud_tab {
+    height: 128px;
+    overflow: hidden;
+    margin: 25px 20px 0 20px;
+    border-collapse: collapse;
+    border: 1px solid #eaeaea;
+}
+
+.jud_per {
+    color: #ff4e00;
+    font-size: 14px;
+    text-align: center;
+}
+
+.jud_per p {
+    margin: 0;
+    padding: 0;
+    font-size: 34px;
+    line-height: 36px;
+}
+
+.jud_bg {
+    background: url(../images/s_line.gif) no-repeat left center;
+    padding: 0 30px;
+    line-height: 22px;
+}
+
+table.jud_list tr td {
+    border-collapse: collapse;
+    border-bottom: 1px solid #eaeaea;
+    padding: 20px;
+    line-height: 22px;
+}
+
+/*begin  mask layer  begin*/
+.black_overlay {
+    width: 100%;
+    height: 100%;
+    background: url(../images/box_bg.png) repeat center top;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 900;
+}
+
+.white_content {
+    width: 540px;
+    min-height: 100px;
+    height: 100px;
+    background: url(../images/box.png) repeat center top;
+    display: none;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    margin-left: -270px;
+    z-index: 901;
+}
+
+.white_d {
+    width: 520px;
+    overflow: hidden;
+    background-color: #FFF;
+    margin: 10px;
+    padding-bottom: 50px;
+}
+
+.notice_t {
+    width: 500px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    font-size: 16px;
+    margin: 1px auto;
+}
+
+.notice_c {
+    width: 480px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.b_sure {
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    background-color: #ff4e00;
+    color: #FFF;
+    font-size: 14px;
+    text-align: center;
+    float: left;
+    display: inline;
+    margin-right: 10px;
+    border: 0;
+}
+
+.b_sure:hover {
+    color: #FFF;
+}
+
+.b_buy {
+    width: 118px;
+    height: 38px;
+    line-height: 38px;
+    overflow: hidden;
+    background-color: #f6f6f6;
+    color: #ff4e00;
+    font-size: 14px;
+    text-align: center;
+    float: left;
+    display: inline;
+    margin-right: 10px;
+    border: 1px solid #eaeaea;
+}
+
+.b_buy:hover {
+    color: #ff4e00;
+}
+
+/*end  mask layer  end*/

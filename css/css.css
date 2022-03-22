@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #0d3349;
+}
+.layout{
+    width:1024px;
+    height:900px;
+    margin:0 auto;
+    background-color: #ffffff;
+}
+.layout header{
+    height:120px;
+    border-bottom:2px solid  #0d3349;
+}
+.topnav{
+    float: right;
+    line-height: 120px;
+    padding-right:20px;
+}
+.layout .menu{
+    width:200px;
+    height:700px;
+    float: left;
+    background-color: #fff;
+}
+.layout .menu ul li{
+    list-style:none;
+    line-height:32px;
+    text-indent: 32px;
+}
+.layout .main{
+    float: right;
+    width:824px;
+    min-height:700px;
+    background: #eee;
+}
+footer{
+    height:80px;
+    background-color: #3b4249;
+    clear: both;
+}
+.main table.table{
+    width: 750px;
+    background-color: #fff;
+    margin:30px auto;
+}
+.main table.table thead{
+    font-size:12px;
+    width:30px;
+    height:32px;
+}
+.main table.table td{
+    height:32px;
+    font-size:12px;
+}
+div.main div.news_add form{
+    margin:0 auto;
+    width:600px;
+    font-size:12px;
+}

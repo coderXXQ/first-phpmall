@@ -1,0 +1,19 @@
+*{ margin:0px; padding:0px;}
+.smfont{
+	width: 36%;
+	height:29px;
+	position: relative;
+	left: 386px;
+	top:-61px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+.smfont _ul{
+	top:0;
+	left:0;
+}
+.smfont li{
+	float:left;
+	text-align:left;
+	top: 0;
+	left: 0;
+}

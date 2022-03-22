@@ -1,0 +1,2 @@
+.box{margin:42px 108px 90px;position:relative;background:url(../images/ms01.jpg);width:290px;height:220px;}
+.box div{float:left;width:50px;height:50px;border:1px solid #393939;margin-left:10px;line-height:50px;text-align: center;color:red;position:relative;top:240px;left:20px;}

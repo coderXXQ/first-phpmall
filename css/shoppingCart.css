@@ -1,0 +1,28 @@
+*{ margin: 0;padding: 0;list-style: none;font-size: 16px;font-family: 'arial';font-weight: normal; }
+table{ width: 1020px;margin: 0 auto;border: 1px solid gray;margin-top: 30px;border-collapse: collapse;text-align: center; }
+table tr{ height: 100px;line-height: 100px; }
+
+thead{ background: black;color: white; }
+thead tr,tfoot tr{ height: 40px;line-height: 40px; }
+
+table img{ float: left;width: 65px;height: 65px;margin-top: 18px; }
+table input[type="checkbox"]{ width: 32px;height: 32px;-webkit-appearance: none;background: url(../images/checkbox.jpg) no-repeat center center;vertical-align:middle }
+
+tbody td:nth-child(1){ width: 7%; }
+tbody td:nth-child(2){ width: 35%; }
+tbody td:nth-child(3){ width: 13%; }
+tbody td:nth-child(4){ width: 15%; }
+tbody td:nth-child(5){ width: 15%; }
+tbody td:nth-child(6){ width: 15%; }
+tbody tr{ border-bottom: 1px solid black; }
+
+table .add,table .dec,table .del{ display: inline-block;width: 14px;height: 21px;cursor: pointer; }
+table .add{ background: url(../images/jia.gif) no-repeat center center; }
+table .dec{ background: url(../images/jian.gif) no-repeat center center; }
+table .num{ display: inline-block;width: 57px;margin: 0 18px;height: 39px;line-height: 39px;border: 1px solid #b0b0b0;background: #d4d4d4; }
+table .del{ width: 18px; background:url(../images/del.jpg) no-repeat; }
+table .money,table .total{ color: red; }
+table .choosen{ color: #3083ff; }
+table .sure{ width: 100%;height: 100%;background: #3083ff;color: #fff;border: none;cursor: pointer; }
+
+input[type='checkbox']:checked{ background: url(../images/check.jpg) no-repeat center center; }

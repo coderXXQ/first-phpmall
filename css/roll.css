@@ -1,0 +1,40 @@
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			.cover{
+				width: 128px;
+				height: 177px;
+				margin: 4px 270px auto;
+				position: absolute;
+				cursor: pointer;
+			}
+
+			#demo {
+				width: 720px;
+				height: 175px;
+				margin: 0px auto;
+				position: relative;
+				overflow: hidden;
+				border: 3px solid lightgray;
+
+			}
+
+			#demo ul {
+				position: absolute;
+				left: 0px;
+				top: 0;
+			}
+
+			#demo ul li {
+				float: left;
+				width: 178px;
+				height: 175px;
+				list-style: none;
+				margin-left: 2px;
+				cursor: pointer;
+			}
+			#demo ul li  img{
+				width: 178px;
+				height: 175px;
+			}

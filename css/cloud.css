@@ -1,0 +1,43 @@
+*{margin:0;padding: 0;}
+ul{list-style: none;}
+body{
+	background-color: white;
+}
+.nav_0{
+	font-family:Verdana, Geneva, sans-serif; font-size:18px;
+	width: 730px;
+	height: 42px;
+	background:url(../images/cloud01.png)no-repeat right center #FFFFFF;
+	margin: 28px 380px 0px;
+	border-radius:5px;
+	position: relative;
+}
+.cloud{
+	width: 95px;
+	height: 42px;
+	position: absolute;
+	top:0;
+	left: 0;
+	background: url(../images/cloud02.png)no-repeat;
+}
+a:link,a:visited{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+	color: red;
+}
+.nav_0 ul{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.nav_0 li{
+	float: left;
+	width: 100px;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	color: #000;
+	cursor: pointer;
+}

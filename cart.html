@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset = "UTF-8">
+	    <title>我的乐享购物车</title>
+	    <link href="css/shoppingCart.css" rel="stylesheet">
+	</head>
+	<body onselectstart="return false;" style="-moz-user-select:none;">
+		<table>
+			<thead>
+				<tr>
+	                <th><input type="checkbox"></th>
+	                <th>商品信息</th>
+	                <th>数量</th>
+	                <th>单价<span>（元）</span></th>
+	                <th>金额<span>（元）</span></th>
+	                <th>操作</th>
+	            </tr>
+			</thead>
+			<tbody>
+				<tr>
+	                <td><input type="checkbox"></td>
+	                <td>
+	                    <img src="images/nubia.jpg">
+	                    <p>努比亚 nubia 红魔5G 电竞游戏手机</p>
+	                </td>
+	                <td><span class="add"></span><span class="num">3</span><span class="dec"></span></td>
+	                <td class="per">￥<span>3799</span></td>
+	                <td class="money">￥<span>11397</span></td>
+	                <td><a class="del"></a></td>
+	            </tr>
+	            <tr>
+	                <td><input type="checkbox"></td>
+	                <td>
+	                    <img src="images/iphone.jpg">
+	                    <p>iPhone 11 Pro 256GB 暗夜绿</p>
+	                </td>
+	                <td><span class="add"></span><span class="num">3</span><span class="dec"></span></td>
+	                <td class="per">￥<span>8799</span></td>
+	                <td class="money">￥<span>26397</span></td>
+	                <td><a class="del"></a></td>
+	            </tr>
+	            <tr>
+	                <td><input type="checkbox"></td>
+	                <td>
+	                    <img src="images/Galaxy.jpg">
+	                    <p>三星Galaxy Note10+5G(SM-N9760)</p>
+	                </td>
+	                <td><span class="add"></span><span class="num">3</span><span class="dec"></span></td>
+	                <td class="per">￥<span>6499</span></td>
+	                <td class="money">￥<span>19497</span></td>
+	                <td><a class="del"></a></td>
+	            </tr>
+				<tr>
+				    <td><input type="checkbox"></td>
+				    <td>
+				        <img src="images/vivo.jpg">
+				        <p>vivo X30 5G 秘银 8GB+128GB 双模5G</p>
+				    </td>
+				    <td><span class="add"></span><span class="num">3</span><span class="dec"></span></td>
+				    <td class="per">￥<span>2998</span></td>
+				    <td class="money">￥<span>8994</span></td>
+				    <td><a class="del"></a></td>
+				</tr>
+				<tr>
+				    <td><input type="checkbox"></td>
+				    <td>
+				        <img src="images/rongyao.jpg">
+				        <p>荣耀30 50倍远摄 麒麟985 5G 钛空银</p>
+				    </td>
+				    <td><span class="add"></span><span class="num">3</span><span class="dec"></span></td>
+				    <td class="per">￥<span>3989</span></td>
+				    <td class="money">￥<span>11967</span></td>
+				    <td><a class="del"></a></td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td></td>
+					<td>已选：<span class="choosen">0</span>件&nbsp;&nbsp;共<span class="total">0</span>元</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td><button class="sure">结账</button></td>
+				</tr>
+			</tfoot>
+		</table>
+		<script src="js/shoppingCart.js"></script>
+	</body>
+</html>

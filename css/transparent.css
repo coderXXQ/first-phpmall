@@ -1,0 +1,13 @@
+.table{
+	width:600;
+	height:350;
+	top:0;
+	left:0;
+    position:static;
+}
+.table table{	
+	width:600;
+	height:350;
+	margin:-350px 400px auto;
+	cursor: pointer;
+}
